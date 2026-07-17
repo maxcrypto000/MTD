@@ -10,6 +10,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Metodo Tour Digitale",
   description: "Landing page per agenzia di marketing specializzata in società sportive.",
+  icons: {
+    icon: '/logo.png',
+  },
 };
 
 export default function RootLayout({
