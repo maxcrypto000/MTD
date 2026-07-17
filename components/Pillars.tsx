@@ -65,16 +65,10 @@ function PillarItem({ pillar, index }: { pillar: Pillar; index: number }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.7 }}
-      className={`flex flex-col ${index % 2 === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-12 lg:gap-20 items-center`}
-    >
+    <div className={`flex flex-col ${index % 2 === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-12 lg:gap-20 items-center`}>
       {/* Image Side */}
       <div className="w-full lg:w-1/2">
-        <div className="relative aspect-[4/3] rounded-3xl overflow-hidden border-2 border-brand-darkBlue/20 shadow-2xl">
+        <div className="relative aspect-[4/3] rounded-3xl overflow-hidden border-2 border-brand-darkBlue/30 shadow-[0_0_50px] shadow-brand-blue/30">
           <img
             src={pillar.image}
             alt={pillar.title}
@@ -124,7 +118,7 @@ function PillarItem({ pillar, index }: { pillar: Pillar; index: number }) {
           )}
         </button>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
