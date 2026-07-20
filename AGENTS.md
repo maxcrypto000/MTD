@@ -25,8 +25,8 @@ theme: {
         orange: '#FF5B21',
         light: '#FFEFD3',
         blue: '#4DADBD',
-        darkBlue: '#1F6E8B',
-        darkest: '#12181C',
+        darkBlue: '#207290ff',
+        darkest: '#0a0e10ff',
       }
     }
   }
