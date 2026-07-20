@@ -27,7 +27,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-base sm:text-xl lg:text-2xl text-brand-light/80 mb-10 sm:mb-12 max-w-3xl mx-auto font-medium">
-            Metodo creato da imprenditori dello sport che gestiscono una società da più di 1 milione di fatturato l’anno.
+            Metodo creato da un Imprenditore dello sport che gestisce una società da più di 1 milione di fatturato l’anno.
           </p>
 
           <motion.a

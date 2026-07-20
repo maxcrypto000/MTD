@@ -18,7 +18,7 @@ export default function Problem() {
 
           <div className="space-y-6 text-lg sm:text-xl text-brand-light/90 max-w-prose mx-auto mb-12 text-left">
             <p>
-              Sei stanco di correre per una società che ti fa lavorare il doppio di un tuo dipendente e non ti dà la possibilità di vivere una vita sopra la media?
+              Sei stanco di correre per una società che ti fa lavorare il doppio di quanto dovresti e non ti da la possibilità di vivere una vita sopra la media?
             </p>
             <p>
               Basta con soldi a fondo perduto, aiuti dallo Stato, scoperti in banca e chi più ne ha più ne metta. In questo modo non scalerai mai la tua società e non vivrai mai la vita che ti eri promesso.

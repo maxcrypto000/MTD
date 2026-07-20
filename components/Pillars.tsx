@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle2, ChevronDown, ChevronUp } from "lucide-react";
 
@@ -11,7 +11,7 @@ const pillars = [
     image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&q=80",
     description: [
       "Individuiamo i tuoi punti di forza, ciò che ti rende diverso dalla concorrenza, perché ormai cercano tutti di fare solo il prezzo più basso.",
-      "Un nostro manager effettuerà un sopralluogo presso la tua struttura e svolgerà una riunione di circa 3-4 ore con te per conoscere a fondo il tuo business, i tuoi punti di forza, la tua filosofia e il tipo di clientela che desideri attrarre.",
+      "Un nostro manager effettuerà un sopralluogo presso la tua struttura e svolgerà una riunione con te per conoscere a fondo il tuo business, i tuoi punti di forza, la tua filosofia e il tipo di clientela che desideri attrarre.",
       "Questa fase è fondamentale per individuare il tuo reale vantaggio competitivo e definire il target ideale a cui rivolgeremo tutta la comunicazione."
     ]
   },
@@ -20,10 +20,17 @@ const pillars = [
     title: "COSTRUZIONE DEL TOUR DIGITALE",
     image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80",
     description: [
-      "Costruzione del Tour Digitale della tua struttura, per raccontare nel dettaglio i tuoi allenatori, l’attrezzatura, i servizi, gli allenamenti e la vostra filosofia.",
-      "Dopo aver raccolto tutte le informazioni necessarie, il nostro manager creerà il tuo Tour Digitale con l’aiuto di un grafico, un copywriter, un videomaker e un editor.",
-      "Quando il materiale sarà pronto, il nostro advertiser lancerà il tuo Tour online, monitorando quotidianamente il budget concordato e aggiornandoti ogni settimana sui risultati ottenuti.",
-      "Avrai sempre accesso alle piattaforme utilizzate per promuovere il tuo Tour Digitale e, ogni mese, riceverai: l’elenco dei potenziali clienti interessati; un report dettagliato; il confronto tra investimento effettuato e risultati economici ottenuti."
+      "Costruiremo il Tour Digitale della tua struttura, per raccontare nel dettaglio i tuoi allenatori, l’attrezzatura, i servizi, gli allenamenti e la vostra filosofia.",
+      "Dopo aver raccolto tutte le informazioni necessarie, il nostro manager darà vita al progetto con l’aiuto di un grafico, un copywriter, un videomaker e un editor.",
+      "Quando il materiale sarà pronto, l’ advertiser lancerà il tuo Tour online, monitorando quotidianamente il budget concordato e aggiornandoti ogni settimana sui risultati ottenuti.",
+      <div key="list" className="block w-full">
+        Avrai sempre accesso alle piattaforme utilizzate per promuovere il tuo Tour Digitale e, ogni mese, riceverai:
+        <ul className="list-disc pl-6 mt-2 space-y-1 text-brand-light/90">
+          <li>l’elenco dei clienti interessati;</li>
+          <li>un report dettagliato;</li>
+          <li>il confronto tra investimento effettuato e risultati economici ottenuti.</li>
+        </ul>
+      </div>
     ]
   },
   {
@@ -59,7 +66,12 @@ const pillars = [
 ];
 
 // Define prop types since we're using TypeScript
-type Pillar = typeof pillars[0];
+type Pillar = {
+  id: number;
+  title: string;
+  image: string;
+  description: ReactNode[];
+};
 
 function PillarItem({ pillar, index }: { pillar: Pillar; index: number }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -99,7 +111,7 @@ function PillarItem({ pillar, index }: { pillar: Pillar; index: number }) {
                 {pillar.description.map((desc, i) => (
                   <li key={i} className="flex items-start">
                     <CheckCircle2 className="w-6 h-6 text-brand-blue flex-shrink-0 mt-1 mr-4" />
-                    <p className="text-lg text-brand-light/80 leading-relaxed">{desc}</p>
+                    <div className="text-lg text-brand-light/80 leading-relaxed w-full">{desc}</div>
                   </li>
                 ))}
               </ul>

@@ -36,7 +36,7 @@ export default function Closing() {
 
             <div className="text-lg sm:text-xl text-brand-light/90 space-y-6 mb-12">
               <p>
-                Per il primo mese, se passerai la chiamata di selezione con un nostro consulente, accederai <strong>gratuitamente</strong> al Metodo Tour Digitale.
+                Per il primo mese, se passerai la chiamata di selezione con un nostro consulente, accederai <strong>senza rischi a un periodo di prova</strong> al Metodo Tour Digitale.
               </p>
               <p>
                 Ti basterà registrarti qui sotto per essere contattato.
@@ -45,10 +45,10 @@ export default function Closing() {
 
             <div className="bg-brand-darkest border border-brand-orange/30 rounded-2xl p-6 sm:p-8 mb-10 transform -rotate-1 hover:rotate-0 transition-transform duration-300">
               <h3 className="text-lg sm:text-2xl font-bold text-brand-light mb-4">
-                SOLO DOPO LA PROVA GRATUITA VALUTERAI TU STESSO SE CONTINUARE PER SOLI:
+                SOLO DOPO LA PROVA GRATUITA VALUTERAI TU STESSO SE FIRMARE PER SOLI:
               </h3>
               <p className="text-4xl sm:text-7xl font-black text-brand-orange mb-4 tracking-tight">
-                799 € <span className="text-xl sm:text-3xl text-brand-light/70 font-bold">/ mese + IVA</span>
+                899 € <span className="text-xl sm:text-3xl text-brand-light/70 font-bold">/ mese</span>
               </p>
               <div className="inline-block bg-brand-blue/10 text-brand-blue font-bold px-3 py-2 rounded-xl sm:rounded-full text-xs sm:text-base border border-brand-blue/20">
                 SENZA CONTRATTI VINCOLANTI E CON LA POSSIBILITÀ DI RECEDERE QUANDO VUOI.
@@ -78,6 +78,9 @@ export default function Closing() {
                 Candidati
               </motion.button>
             </form>
+            <p className="mt-4 text-sm sm:text-base leading-tight text-brand-light/80 text-center">
+              Se non ottieni nel primo mese quello che ti promettiamo, non dovrai darci nemmeno un euro e non ci vedremo mai più.
+            </p>
           </div>
         </motion.div>
       </div>
