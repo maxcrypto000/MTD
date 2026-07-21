@@ -45,7 +45,7 @@ export default function Closing() {
 
             <div className="bg-brand-darkest border border-brand-orange/30 rounded-2xl p-6 sm:p-8 mb-10 transform -rotate-1 hover:rotate-0 transition-transform duration-300">
               <h3 className="text-lg sm:text-2xl font-bold text-brand-light mb-4">
-                SOLO DOPO LA PROVA GRATUITA VALUTERAI TU STESSO SE FIRMARE PER SOLI:
+                SOLO DOPO LA PROVA VALUTERAI TU STESSO SE FIRMARE PER SOLI:
               </h3>
               <p className="text-4xl sm:text-7xl font-black text-brand-orange mb-4 tracking-tight">
                 899 € <span className="text-xl sm:text-3xl text-brand-light/70 font-bold">/ mese</span>

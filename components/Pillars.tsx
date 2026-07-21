@@ -73,6 +73,10 @@ type Pillar = {
   description: ReactNode[];
 };
 
+// Flag per attivare/disattivare i bottoni "Leggi di più". 
+// true = mostra i bottoni e nasconde il testo. false = mostra tutto il testo.
+const USE_ACCORDION = false;
+
 function PillarItem({ pillar, index }: { pillar: Pillar; index: number }) {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -98,37 +102,50 @@ function PillarItem({ pillar, index }: { pillar: Pillar; index: number }) {
           {pillar.title}
         </h3>
 
-        <AnimatePresence>
-          {isOpen && (
-            <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: "auto" }}
-              exit={{ opacity: 0, height: 0 }}
-              transition={{ duration: 0.3 }}
-              className="overflow-hidden"
-            >
-              <ul className="space-y-6 mb-8 pt-2">
-                {pillar.description.map((desc, i) => (
-                  <li key={i} className="flex items-start">
-                    <CheckCircle2 className="w-6 h-6 text-brand-blue flex-shrink-0 mt-1 mr-4" />
-                    <div className="text-lg text-brand-light/80 leading-relaxed w-full">{desc}</div>
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-          )}
-        </AnimatePresence>
+        {USE_ACCORDION ? (
+          <>
+            <AnimatePresence>
+              {isOpen && (
+                <motion.div
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: "auto" }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="overflow-hidden"
+                >
+                  <ul className="space-y-6 mb-8 pt-2">
+                    {pillar.description.map((desc, i) => (
+                      <li key={i} className="flex items-start">
+                        <CheckCircle2 className="w-6 h-6 text-brand-blue flex-shrink-0 mt-1 mr-4" />
+                        <div className="text-lg text-brand-light/80 leading-relaxed w-full">{desc}</div>
+                      </li>
+                    ))}
+                  </ul>
+                </motion.div>
+              )}
+            </AnimatePresence>
 
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="inline-flex items-center gap-2 bg-brand-darkBlue/20 text-brand-blue hover:bg-brand-darkBlue/40 hover:text-white font-bold py-3 px-6 rounded-full transition-all border border-brand-blue/30"
-        >
-          {isOpen ? (
-            <>Nascondi descrizione <ChevronUp className="w-5 h-5" /></>
-          ) : (
-            <>Leggi di più <ChevronDown className="w-5 h-5" /></>
-          )}
-        </button>
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="inline-flex items-center gap-2 bg-brand-darkBlue/20 text-brand-blue hover:bg-brand-darkBlue/40 hover:text-white font-bold py-3 px-6 rounded-full transition-all border border-brand-blue/30"
+            >
+              {isOpen ? (
+                <>Nascondi descrizione <ChevronUp className="w-5 h-5" /></>
+              ) : (
+                <>Leggi di più <ChevronDown className="w-5 h-5" /></>
+              )}
+            </button>
+          </>
+        ) : (
+          <ul className="space-y-6 pt-2">
+            {pillar.description.map((desc, i) => (
+              <li key={i} className="flex items-start">
+                <CheckCircle2 className="w-6 h-6 text-brand-blue flex-shrink-0 mt-1 mr-4" />
+                <div className="text-lg text-brand-light/80 leading-relaxed w-full">{desc}</div>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );
