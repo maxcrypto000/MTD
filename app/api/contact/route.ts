@@ -4,6 +4,17 @@ export async function POST(request: Request) {
   try {
     const formData = await request.formData();
     
+    // ==========================================
+    // HONEYPOT ANTI-SPAM SYSTEM
+    // ==========================================
+    // If the hidden 'website' field is filled, it's a bot.
+    const honeypot = formData.get('website');
+    if (honeypot) {
+      console.log("Spam bot bloccato dall'honeypot.");
+      // We return 200 OK to fool the bot into thinking it succeeded
+      return NextResponse.json({ success: true });
+    }
+    
     // Convert FormData to URL-encoded string for Google Apps Script
     const urlEncodedData = new URLSearchParams(formData as any).toString();
 

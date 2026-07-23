@@ -88,6 +88,11 @@ export default function Closing() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4 mb-8 text-left">
+                {/* HONEYPOT: Campo invisibile per ingannare i bot. Se un bot lo compila, la richiesta viene bloccata dal server. */}
+                <div aria-hidden="true" className="hidden absolute opacity-0 pointer-events-none">
+                  <input type="text" name="website" tabIndex={-1} autoComplete="off" />
+                </div>
+                
                 <div>
                   <input type="text" name="nome" placeholder="Nome e Cognome" className="w-full bg-brand-darkest/50 border border-brand-darkBlue/30 rounded-xl px-4 py-3 text-brand-light focus:outline-none focus:border-brand-orange transition-colors" required disabled={status === 'loading'} />
                 </div>
