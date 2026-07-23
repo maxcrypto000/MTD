@@ -1,8 +1,34 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useState, FormEvent } from "react";
 
 export default function Closing() {
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setStatus('loading');
+
+    const formData = new FormData(e.currentTarget);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        setStatus('success');
+      } else {
+        throw new Error('Errore nella risposta del server');
+      }
+    } catch (error) {
+      console.error("Errore nell'invio del form:", error);
+      setStatus('error');
+    }
+  };
+
   return (
     <section className="py-24 bg-brand-darkest relative overflow-hidden border-t border-brand-darkBlue/20" id="candidati">
       {/* Decorative gradients */}
@@ -55,29 +81,45 @@ export default function Closing() {
               </div>
             </div>
 
-            {/* Dummy Form for the landing page */}
-            <form className="max-w-md mx-auto space-y-4 mb-8 text-left">
-              <div>
-                <input type="text" placeholder="Nome e Cognome" className="w-full bg-brand-darkest/50 border border-brand-darkBlue/30 rounded-xl px-4 py-3 text-brand-light focus:outline-none focus:border-brand-orange transition-colors" required />
+            {status === 'success' ? (
+              <div className="max-w-md mx-auto bg-green-500/10 border border-green-500/30 rounded-2xl p-8 mb-8 text-center">
+                <h3 className="text-2xl font-bold text-green-400 mb-2">Candidatura inviata!</h3>
+                <p className="text-brand-light/90">Ti contatteremo al più presto per la chiamata di selezione.</p>
               </div>
-              <div>
-                <input type="email" placeholder="Email" className="w-full bg-brand-darkest/50 border border-brand-darkBlue/30 rounded-xl px-4 py-3 text-brand-light focus:outline-none focus:border-brand-orange transition-colors" required />
-              </div>
-              <div>
-                <input type="tel" placeholder="Numero di Telefono" className="w-full bg-brand-darkest/50 border border-brand-darkBlue/30 rounded-xl px-4 py-3 text-brand-light focus:outline-none focus:border-brand-orange transition-colors" required />
-              </div>
-              <div>
-                <input type="text" placeholder="Nome Società Sportiva" className="w-full bg-brand-darkest/50 border border-brand-darkBlue/30 rounded-xl px-4 py-3 text-brand-light focus:outline-none focus:border-brand-orange transition-colors" required />
-              </div>
-              <motion.button
-                type="submit"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="w-full btn-primary text-xl px-8 py-5 shadow-lg mt-4"
-              >
-                Candidati
-              </motion.button>
-            </form>
+            ) : (
+              <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-4 mb-8 text-left">
+                <div>
+                  <input type="text" name="nome" placeholder="Nome e Cognome" className="w-full bg-brand-darkest/50 border border-brand-darkBlue/30 rounded-xl px-4 py-3 text-brand-light focus:outline-none focus:border-brand-orange transition-colors" required disabled={status === 'loading'} />
+                </div>
+                <div>
+                  <input type="email" name="email" placeholder="Email" className="w-full bg-brand-darkest/50 border border-brand-darkBlue/30 rounded-xl px-4 py-3 text-brand-light focus:outline-none focus:border-brand-orange transition-colors" required disabled={status === 'loading'} />
+                </div>
+                <div>
+                  <input type="tel" name="telefono" placeholder="Numero di Telefono" className="w-full bg-brand-darkest/50 border border-brand-darkBlue/30 rounded-xl px-4 py-3 text-brand-light focus:outline-none focus:border-brand-orange transition-colors" required disabled={status === 'loading'} />
+                </div>
+                <div>
+                  <input type="text" name="societa" placeholder="Nome Società Sportiva" className="w-full bg-brand-darkest/50 border border-brand-darkBlue/30 rounded-xl px-4 py-3 text-brand-light focus:outline-none focus:border-brand-orange transition-colors" required disabled={status === 'loading'} />
+                </div>
+
+                {status === 'error' && (
+                  <p className="text-red-400 text-sm text-center">Si è verificato un errore. Riprova più tardi.</p>
+                )}
+
+                <motion.button
+                  type="submit"
+                  disabled={status === 'loading'}
+                  whileHover={status === 'loading' ? {} : { scale: 1.05 }}
+                  whileTap={status === 'loading' ? {} : { scale: 0.95 }}
+                  className={`w-full btn-primary text-xl px-8 py-5 shadow-lg mt-4 flex items-center justify-center ${status === 'loading' ? 'opacity-70 cursor-not-allowed' : ''}`}
+                >
+                  {status === 'loading' ? (
+                    <span className="animate-pulse">Invio in corso...</span>
+                  ) : (
+                    "Candidati"
+                  )}
+                </motion.button>
+              </form>
+            )}
             <p className="mt-4 text-sm sm:text-base leading-tight text-brand-light/80 text-center">
               Se non ottieni nel primo mese quello che ti promettiamo, non dovrai darci nemmeno un euro e non ci vedremo mai più.
             </p>
