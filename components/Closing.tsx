@@ -68,24 +68,7 @@ export default function Closing() {
                 Ti basterà registrarti qui sotto per essere contattato.
               </p>
 
-              <div className="mt-8 text-left bg-brand-darkBlue/10 p-6 sm:p-8 rounded-2xl border border-brand-darkBlue/30 shadow-inner">
-                <h3 className="text-xl sm:text-2xl font-black text-brand-light mb-4 leading-tight">
-                  MA PERCHÉ TI DIAMO LA POSSIBILITÀ DI PROVARE TUTTO QUESTO <span className="text-brand-orange">SENZA DOVERCI DARE UN EURO?</span>
-                </h3>
-                <p className="mb-4 text-brand-light/90">
-                  Siamo così sicuri del valore che ti stiamo promettendo, che non abbiamo bisogno di spingerti o forzarti a firmare contratti vincolanti e quindi a fare acquisti di impulso.
-                </p>
-                <p className="mb-8 text-brand-light/90">
-                  Sarai tu stesso che dopo aver valutato la veridicità di quello che dico non vorrai fare a meno del nostro servizio.
-                </p>
 
-                <h3 className="text-xl sm:text-2xl font-black text-brand-light mb-4">
-                  MA ATTENZIONE <span className="text-brand-orange">IL NOSTRO TEMPO È LIMITATO.</span>
-                </h3>
-                <p className="text-brand-light/90 leading-relaxed">
-                  Dato che non possiamo scendere a compromessi con la qualità del nostro lavoro e dato che gestiamo una società sportiva con più di 30 dipendenti <strong className="text-brand-light font-black">ABBIAMO DECISO DI APRIRE SOLO 15 POSTI PER LE PRIME 15 SOCIETÀ SPORTIVE CHE COMPILERANNO IL MODULO E PASSERANNO LA CALL DI CANDIDATURA.</strong>
-                </p>
-              </div>
             </div>
 
             <div className="bg-brand-darkest border border-brand-orange/30 rounded-2xl p-6 sm:p-8 mb-10 transform -rotate-1 hover:rotate-0 transition-transform duration-300">
@@ -98,6 +81,25 @@ export default function Closing() {
               <div className="inline-block bg-brand-blue/10 text-brand-blue font-bold px-3 py-2 rounded-xl sm:rounded-full text-xs sm:text-base border border-brand-blue/20">
                 Per aver accesso ad un team di 5 persone che in solo due anni ha quasi raddoppiato il mio fatturato, il tutto a metà della metà del costo di un dipendente al mese.
               </div>
+            </div>
+
+            <div className="mt-8 mb-12 text-left bg-brand-darkBlue/10 p-6 sm:p-8 rounded-2xl border border-brand-darkBlue/30 shadow-inner">
+              <h3 className="text-xl sm:text-2xl font-black text-brand-light mb-4 leading-tight">
+                MA PERCHÉ TI DIAMO LA POSSIBILITÀ DI PROVARE TUTTO QUESTO <span className="text-brand-orange">SENZA DOVERCI DARE UN EURO?</span>
+              </h3>
+              <p className="mb-4 text-brand-light/90">
+                Siamo così sicuri del valore che ti stiamo promettendo, che non abbiamo bisogno di spingerti o forzarti a firmare contratti vincolanti e quindi a fare acquisti di impulso.
+              </p>
+              <p className="mb-8 text-brand-light/90">
+                Sarai tu stesso che dopo aver valutato la veridicità di quello che dico non vorrai fare a meno del nostro servizio.
+              </p>
+
+              <h3 className="text-xl sm:text-2xl font-black text-brand-light mb-4">
+                MA ATTENZIONE <span className="text-brand-orange">IL NOSTRO TEMPO È LIMITATO.</span>
+              </h3>
+              <p className="text-brand-light/90 leading-relaxed">
+                Dato che non possiamo scendere a compromessi con la qualità del nostro lavoro e dato che gestiamo una società sportiva con più di 30 dipendenti <strong className="text-brand-light font-black">ABBIAMO DECISO DI APRIRE SOLO 15 POSTI PER LE PRIME 15 SOCIETÀ SPORTIVE CHE COMPILERANNO IL MODULO E PASSERANNO LA CALL DI CANDIDATURA.</strong>
+              </p>
             </div>
 
             {status === 'success' ? (

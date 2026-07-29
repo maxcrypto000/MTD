@@ -17,13 +17,10 @@ export default function Empathy() {
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-orange to-transparent opacity-50"></div>
 
             <h3 className="text-2xl sm:text-3xl font-black text-brand-light mb-6 text-center">
-              Ci siamo passati <span className="text-brand-orange">prima di te…</span>
+              HAI GIÀ PROVATO CON METODI DATATI CHE NEL 2026 <span className="text-brand-orange">NON FUNZIONANO PIÙ</span>
             </h3>
 
             <div className="text-lg sm:text-xl text-brand-light/90 leading-relaxed text-center space-y-4 font-medium">
-              <p>
-                Hai già provato con metodi datati che nel 2026 <strong className="text-brand-blue font-bold">non funzionano più</strong>.
-              </p>
               <p>
                 Non è colpa tua, per anni ti hanno insegnato a credere nel volantinaggio, negli open day e nel passaparola. Poi sono arrivate le agenzie marketing... che ti hanno venduto <strong className="text-brand-orange font-bold">dati difficilmente convertibili in denaro</strong>, come like e visualizzazioni, tra l’altro facilmente manipolabili con bot da due soldi.
               </p>
@@ -49,7 +46,7 @@ export default function Empathy() {
                 Cosa vuoi che ne sappiano di come si gestisce un centro sportivo?
               </p>
               <p>
-                <strong className="font-bold">Non gestiscono aziende di proprietà:</strong> Vogliono venderti la loro soluzione miracolosa, ma lavorano costantemente con la qualunque (ristoranti, bar, gelaterie, ecc.)<strong className="font-bold"> Non sono specializzate nel tuo settore,</strong> è ovvio che non possano soddisfare ciò di cui hai realmente bisogno.
+                <strong className="font-bold">Non gestiscono aziende di proprietà:</strong> Lavorano costantemente con la qualunque (ristoranti, bar, gelaterie, ecc.) è ovvio che non possano soddisfare ciò di cui hai realmente bisogno.
               </p>
               <p>
                 Non sanno che una società sportiva media fattura 200/300 mila euro l’anno e che non può permettersi abbonamenti mensili da 2 mila euro, più altro budget per investimenti pubblicitari.

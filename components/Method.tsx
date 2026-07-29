@@ -6,20 +6,7 @@ export default function Method() {
   return (
     <section className="py-24 bg-brand-darkBlue/5">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-20"
-        >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-light mb-8">
-            <span className="text-brand-orange">STAI PER AFFONDARE </span>SENZA RENDERTENE CONTO!
-          </h2>
-          <p className="text-lg sm:text-xl text-brand-light/90 max-w-4xl mx-auto">
-            Ogni anno nuove società sportive aprono a 5 km da te, rubandoti fette di mercato enormi. Chi davvero ce la fa è strutturato con complessi sistemi di acquisizione clienti, siti web affilati e venditori. <strong className="font-bold">Sa che senza un metodo chiaro e scientifico nel 2026 non si va da nessuna parte.</strong>
-          </p>
-        </motion.div>
+
 
         <div className="card-premium p-6 sm:p-12">
           <motion.div
@@ -46,20 +33,16 @@ export default function Method() {
               HAI BISOGNO DI QUALCUNO CHE <span className="text-brand-orange">VIVE DI SPORT</span> E SA CHE COSA VUOL DIRE GESTIRE UN CENTRO OGNI GIORNO.
             </h2>
 
-            <div className="grid md:grid-cols-2 gap-8 sm:gap-10 text-brand-light/90 text-base sm:text-lg leading-relaxed">
-              <div className="space-y-6">
-                <p>
-                  Hai bisogno di qualcuno che è da anni in contatto con prove gratuite, corsi per bambini e per adulti, l’agonismo, il rapporto tra allenatore e genitori, la segreteria, i servizi, l’attrezzatura e altre mille variabili che solo chi gestisce un centro sportivo conosce.
-                </p>
-                <p className="font-bold text-brand-blue text-xl">
-                  Affidati a chi ha cambiato la sua vita e il destino della propria società sportiva con il <span className="text-brand-blue">Metodo Tour Digitale.</span>
-                </p>
-              </div>
-              <div className="space-y-6">
-                <p>
-                  In un anno e mezzo <strong className="font-bold text-brand-orange">abbiamo raddoppiato il fatturato</strong> della nostra società sportiva Mezzaluna, passando da poco meno di 200 iscritti a più di 430 e organizzando eventi con oltre 1.200 persone giornaliere.
-                </p>
-              </div>
+            <div className="space-y-6 text-brand-light/90 text-base sm:text-lg leading-relaxed max-w-4xl mx-auto text-center">
+              <p>
+                Hai bisogno di qualcuno che è da anni in contatto con prove gratuite, corsi per bambini e per adulti, l’agonismo, il rapporto tra allenatore e genitori, la segreteria, i servizi, l’attrezzatura e altre mille variabili che solo chi gestisce un centro sportivo conosce.
+              </p>
+              <p className="font-bold text-brand-blue text-xl">
+                Affidati a chi ha cambiato la sua vita e il destino della propria società sportiva con il <span className="text-brand-blue">Metodo Tour Digitale.</span>
+              </p>
+              <p>
+                In un anno e mezzo <strong className="font-bold text-brand-orange">abbiamo raddoppiato il fatturato</strong> della nostra società sportiva Mezzaluna, passando da poco meno di 200 iscritti a più di 430 e organizzando eventi con oltre 1.200 persone giornaliere.
+              </p>
             </div>
 
             <div className="mt-12 text-center">
