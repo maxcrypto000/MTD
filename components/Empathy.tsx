@@ -22,10 +22,10 @@ export default function Empathy() {
 
             <div className="text-lg sm:text-xl text-brand-light/90 leading-relaxed text-center space-y-4 font-medium">
               <p>
-                Ci abbiamo già provato con metodi datati che nel 2026 <strong className="text-brand-blue font-bold">non funzionano più</strong>.
+                Hai già provato con metodi datati che nel 2026 <strong className="text-brand-blue font-bold">non funzionano più</strong>.
               </p>
               <p>
-                Ci siamo affidati per anni al volantinaggio, al passaparola, alle agenzie di marketing e anche agli open day, ma <strong className="text-brand-orange font-bold">niente ha mai davvero fatto la differenza</strong>…
+                Non è colpa tua, per anni ti hanno insegnato a credere nel volantinaggio, negli open day e nel passaparola. Poi sono arrivate le agenzie marketing... che ti hanno venduto <strong className="text-brand-orange font-bold">dati difficilmente convertibili in denaro</strong>, come like e visualizzazioni, tra l’altro facilmente manipolabili con bot da due soldi.
               </p>
             </div>
           </div>
@@ -39,11 +39,11 @@ export default function Empathy() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h2 className="text-3xl sm:text-4xl font-medium text-brand-light mb-8 leading-tight">
-              I VOLANTINI FINISCONO NEL SECCHIO E LE AGENZIE DI MARKETING <span className="text-brand-orange font-black">NON POSSONO AIUTARTI!</span>
+              <span className="text-brand-orange font-black">TI HANNO ILLUSO</span> DI RISOLLEVARTI CON UNA SOLUZIONE GENERICA!
             </h2>
             <div className="space-y-6 text-brand-light/90 text-lg">
               <p>
-                Ti vendono <strong className="font-bold">dati difficilmente convertibili in denaro</strong>, come <em className="italic">like e visualizzazioni</em>, facilmente manipolabili con bot da due soldi.
+                I volantini finiscono nel secchio e gli open day sicuramente <strong className="text-brand-orange font-bold">non riempiranno</strong> grazie al passaparola.
               </p>
               <p className="font-bold text-brand-blue">
                 Cosa vuoi che ne sappiano di come si gestisce un centro sportivo?

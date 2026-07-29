@@ -10,9 +10,9 @@ const pillars = [
     title: "ANALISI DELLA TUA SOCIETÀ",
     image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&q=80",
     description: [
-      "Individuiamo i tuoi punti di forza, ciò che ti rende diverso dalla concorrenza, perché ormai cercano tutti di fare solo il prezzo più basso.",
-      "Un nostro manager effettuerà un sopralluogo presso la tua struttura e svolgerà una riunione con te per conoscere a fondo il tuo business, i tuoi punti di forza, la tua filosofia e il tipo di clientela che desideri attrarre.",
-      "Questa fase è fondamentale per individuare il tuo reale vantaggio competitivo e definire il target ideale a cui rivolgeremo tutta la comunicazione."
+      "Un nostro manager effettuerà un sopralluogo presso la tua struttura e svolgerà una riunione con te per studiare a fondo la tua situazione specifica, i tuoi punti di forza, la tua filosofia e il tipo di clientela che desideri attrarre.",
+      "Questa fase è fondamentale per individuare il tuo reale vantaggio competitivo, definire il target ideale a cui rivolgeremo tutta la comunicazione e per costruire la proposta unica di vendita.",
+      "Ti renderemo diverso dalla concorrenza per uscire dal gioco di chi fa il prezzo più basso e iniziare a marginare davvero."
     ]
   },
   {
@@ -22,7 +22,7 @@ const pillars = [
     description: [
       "Costruiremo il Tour Digitale della tua struttura, per raccontare nel dettaglio i tuoi allenatori, l’attrezzatura, i servizi, gli allenamenti e la vostra filosofia.",
       "Dopo aver raccolto tutte le informazioni necessarie, il nostro manager darà vita al progetto con l’aiuto di un grafico, un copywriter, un videomaker e un editor.",
-      "Quando il materiale sarà pronto, l’ advertiser lancerà il tuo Tour online, monitorando quotidianamente il budget concordato e aggiornandoti ogni settimana sui risultati ottenuti.",
+      "Quando il materiale sarà pronto, l’advertiser lancerà il tuo Tour online, monitorando quotidianamente il budget concordato e aggiornandoti ogni settimana sui risultati ottenuti.",
       <div key="list" className="block w-full">
         Avrai sempre accesso alle piattaforme utilizzate per promuovere il tuo Tour Digitale e, ogni mese, riceverai:
         <ul className="list-disc pl-6 mt-2 space-y-1 text-brand-light/90">
@@ -38,8 +38,8 @@ const pillars = [
     title: "ALLENIAMO I TUOI ISTRUTTORI A SVOLGERE OGNI PROVA GRATUITA IN MODO VINCENTE",
     image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&q=80",
     description: [
-      "Non basta essere gentili e preparati, bisogna sapersi vendere.",
-      "Il nostro manager, con anni di esperienza nel settore, formerà i tuoi istruttori affinché ogni prova diventi una concreta opportunità di vendita.",
+      "Non basta essere gentili e preparati, bisogna imparare a vendere.",
+      "Il nostro manager, con anni di esperienza nel settore, formerà i tuoi istruttori affinché ogni prova diventi una concreta opportunità di fatturato.",
       "In base al pacchetto scelto, la formazione sarà erogata tramite videocorso oppure direttamente presso la tua struttura."
     ]
   },
@@ -50,7 +50,7 @@ const pillars = [
     description: [
       "Molti abbonamenti si perdono ancora prima che il cliente entri in sala.",
       "Per questo formeremo la tua segreteria affinché impari a gestire telefonate, appuntamenti e richieste con un metodo commerciale efficace, aumentando il numero di iscrizioni senza risultare insistente.",
-      "Anche in questo caso, la formazione sarà disponibile tramite videocorso oppure direttamente in presenza, in base al pacchetto scelto."
+      "Anche in questo caso, la formazione sarà disponibile tramite videocorso oppure direttamente in presenza, in base alla modalità scelta."
     ]
   },
   {
@@ -58,9 +58,9 @@ const pillars = [
     title: "LA TUA OFFERTA DIVENTERÀ COSÌ INCREDIBILE DA FAR SENTIRE LA GENTE SCIOCCA A NON APPROFITTARNE",
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80",
     description: [
-      "Una grande offerta non significa abbassare i prezzi, ma aumentare il valore percepito.",
+      "Una grande offerta non significa abbassare i prezzi, ma aumentare il valore percepito e farci pagare di più.",
       "Ti aiuteremo a costruire un’offerta irresistibile, a presentare il prezzo nel modo corretto e a comunicare tutti i benefici del tuo servizio, così che il cliente percepisca il tuo abbonamento come la scelta più conveniente e logica.",
-      "L’obiettivo è semplice: fare in modo che acquistare da te diventi una decisione naturale, senza dover ricorrere a sconti continui."
+      "L’obiettivo è semplice: farti pagare mensilità più alte e fare in modo che acquistare da te diventi una decisione naturale, senza dover ricorrere a sconti continui."
     ]
   }
 ];
@@ -157,9 +157,9 @@ export default function Pillars() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-4xl sm:text-5xl font-black text-brand-light mb-6">
-            I <span className="text-brand-orange">5 PILASTRI</span> DEL METODO
+            RIPARTI DAI <span className="text-brand-orange">5 PILASTRI</span> PER RISOLLEVARE QUALSIASI SOCIETA SPORTIVA.
           </h2>
-          <p className="text-xl text-brand-light/70">Ecco come funziona nello specifico</p>
+          <h3 className="text-3xl sm:text-4xl font-black text-brand-orange mb-6">METODO TOUR DIGITALE</h3>
         </div>
 
         <div className="space-y-32">

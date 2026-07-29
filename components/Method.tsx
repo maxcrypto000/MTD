@@ -42,22 +42,22 @@ export default function Method() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative z-10"
           >
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-orange mb-8 sm:mb-10 text-center">
-              METODO TOUR DIGITALE
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-8 sm:mb-10 text-center">
+              HAI BISOGNO DI QUALCUNO CHE <span className="text-brand-orange">VIVE DI SPORT</span> E SA CHE COSA VUOL DIRE GESTIRE UN CENTRO OGNI GIORNO.
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 sm:gap-10 text-brand-light/90 text-base sm:text-lg leading-relaxed">
               <div className="space-y-6">
                 <p>
-                  Hai bisogno di qualcuno che vive di sport e sa che cosa vuol dire gestire un centro sportivo ogni giorno: prove gratuite, corsi per bambini e per adulti, l’agonismo, il rapporto tra allenatore e genitori, la segreteria, i servizi, l’attrezzatura e altre mille variabili che solo chi gestisce un centro sportivo conosce.
+                  Hai bisogno di qualcuno che è da anni in contatto con prove gratuite, corsi per bambini e per adulti, l’agonismo, il rapporto tra allenatore e genitori, la segreteria, i servizi, l’attrezzatura e altre mille variabili che solo chi gestisce un centro sportivo conosce.
                 </p>
                 <p className="font-bold text-brand-blue text-xl">
-                  Affidati a chi ha cambiato la sua vita e il destino della propria società sportiva con il Metodo Tour Digitale…
+                  Affidati a chi ha cambiato la sua vita e il destino della propria società sportiva con il <span className="text-brand-blue">Metodo Tour Digitale.</span>
                 </p>
               </div>
               <div className="space-y-6">
                 <p>
-                  In un anno e mezzo <strong className="font-bold text-brand-orange">abbiamo raddoppiato il fatturato</strong> della nostra società sportiva Mezzaluna, passando da poco meno di 200 iscritti a più di 430 e organizzando eventi con oltre 1.200 persone spalmate su tutta la giornata.
+                  In un anno e mezzo <strong className="font-bold text-brand-orange">abbiamo raddoppiato il fatturato</strong> della nostra società sportiva Mezzaluna, passando da poco meno di 200 iscritti a più di 430 e organizzando eventi con oltre 1.200 persone giornaliere.
                 </p>
               </div>
             </div>

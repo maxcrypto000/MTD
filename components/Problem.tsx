@@ -21,10 +21,10 @@ export default function Problem() {
               Sei stanco di correre per una società che ti fa lavorare il doppio di quanto dovresti e non ti da la possibilità di vivere una vita sopra la media?
             </p>
             <p>
-              Basta con soldi a fondo perduto, aiuti dallo Stato, scoperti in banca e chi più ne ha più ne metta. In questo modo non scalerai mai la tua società e non vivrai mai la vita che ti eri promesso.
+              Passi le tue giornate con l’angoscia del prossimo stipendio da pagare, le scadenze dei fornitori non ti fanno dormire la notte e i tuoi figli sanno a mala pena che esisti!
             </p>
             <p className="font-bold text-brand-orange text-xl sm:text-2xl pt-4">
-              Hai bisogno di nuove prove gratuite, nuove iscrizioni e di risollevare il tuo fatturato!
+              Il tuo sogno rimane in piedi grazie a soldi a fondo perduto, aiuti dallo Stato e scoperti in banca. In questo modo non scalerai mai la tua società e di conseguenza non vivrai mai la vita che ti eri promesso.
             </p>
           </div>
 
