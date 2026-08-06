@@ -14,9 +14,9 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-brand-darkest/95 backdrop-blur-sm border-b border-brand-darkBlue/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
-          <div className="flex-shrink-0 flex items-center">
-            <img src="/logo.png" alt="Metodo Tour Digitale" className="w-20 h-20 sm:w-12 sm:h-12 object-contain" />
+        <div className="flex justify-between items-center h-20 sm:h-24">
+          <div className="flex-shrink-0 flex items-center h-full py-3 sm:py-4">
+            <img src="/logo.png" alt="Metodo Tour Digitale" className="h-full w-auto object-contain" />
 
           </div>
 

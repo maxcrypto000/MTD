@@ -78,9 +78,7 @@ export default function Closing() {
               <p className="text-4xl sm:text-7xl font-black text-brand-orange mb-4 tracking-tight">
                 899 € <span className="text-xl sm:text-3xl text-brand-light/70 font-bold">/ mese</span>
               </p>
-              <div className="inline-block bg-brand-blue/10 text-brand-blue font-bold px-3 py-2 rounded-xl sm:rounded-full text-xs sm:text-base border border-brand-blue/20">
-                Per aver accesso ad un team di 5 persone che in solo due anni ha quasi raddoppiato il mio fatturato, il tutto a metà della metà del costo di un dipendente al mese.
-              </div>
+
             </div>
 
             <div className="mt-8 mb-12 text-left bg-brand-darkBlue/10 p-6 sm:p-8 rounded-2xl border border-brand-darkBlue/30 shadow-inner">
