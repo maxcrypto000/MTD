@@ -4,42 +4,24 @@ export default function Footer() {
   return (
     <footer className="bg-brand-darkest border-t border-brand-darkBlue/20 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           
           {/* Logo & Info */}
           <div className="space-y-4">
             <div className="flex items-center">
               <img src="/logo.png?v=2" alt="Metodo Tour Digitale" className="h-14 sm:h-16 w-auto object-contain" />
-              <span className="ml-3 font-bold text-xl tracking-tight text-brand-light">Metodo Tour Digitale</span>
             </div>
-            <p className="text-brand-light/60 text-sm">
+            <p className="text-brand-light/60 text-sm max-w-sm">
               L'unico sistema strutturato in 5 pilastri per raddoppiare gli iscritti alla tua società sportiva senza agenzie di marketing o metodi obsoleti.
             </p>
           </div>
 
-          {/* Links */}
-          <div>
-            <h4 className="text-brand-light font-bold mb-4 tracking-wider">NAVIGAZIONE</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#chi-siamo" className="text-brand-light/60 hover:text-brand-orange transition-colors text-sm">Chi Siamo</Link>
-              </li>
-              <li>
-                <Link href="#cosa-facciamo" className="text-brand-light/60 hover:text-brand-orange transition-colors text-sm">Cosa Facciamo</Link>
-              </li>
-              <li>
-                <Link href="#candidati" className="text-brand-light/60 hover:text-brand-orange transition-colors text-sm">Candidati</Link>
-              </li>
-            </ul>
-          </div>
-
           {/* Contact */}
-          <div id="contattaci">
+          <div id="contattaci" className="md:justify-self-end">
             <h4 className="text-brand-light font-bold mb-4 tracking-wider">CONTATTI</h4>
             <ul className="space-y-2 text-sm text-brand-light/60">
-              <li>📍 Via dello Sport, 1, Roma</li>
-              <li>✉️ info@metodotourdigitale.it</li>
-              <li>📞 +39 06 123 4567</li>
+              <li>✉️ tourdigitaleinfo@gmail.com</li>
+              <li>📞 340 813 9468</li>
             </ul>
           </div>
         </div>
