@@ -1,4 +1,5 @@
 import Link from "next/link";
+import logoImg from "../public/logo.png";
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
           {/* Logo & Info */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <img src="/logo.png?v=2" alt="Metodo Tour Digitale" className="h-14 sm:h-16 w-auto object-contain" />
+              <img src={logoImg.src} alt="Metodo Tour Digitale" className="h-14 sm:h-16 w-auto object-contain" />
             </div>
             <p className="text-brand-light/60 text-sm max-w-sm">
               L'unico sistema strutturato in 5 pilastri per raddoppiare gli iscritti alla tua società sportiva senza agenzie di marketing o metodi obsoleti.

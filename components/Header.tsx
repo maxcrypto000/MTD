@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Phone } from "lucide-react";
+import logoImg from "../public/logo.png";
 
 export default function Header() {
   return (
@@ -9,7 +10,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 sm:h-24">
           <div className="flex-shrink-0 flex items-center h-full py-3 sm:py-4">
-            <img src="/logo.png?v=2" alt="Metodo Tour Digitale" className="h-full w-auto object-contain" />
+            <img src={logoImg.src} alt="Metodo Tour Digitale" className="h-full w-auto object-contain" />
           </div>
 
           <div className="flex items-center">
