@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Logo & Info */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <img src="/logo.png" alt="Metodo Tour Digitale" className="h-14 sm:h-16 w-auto object-contain" />
+              <img src="/logo.png?v=2" alt="Metodo Tour Digitale" className="h-14 sm:h-16 w-auto object-contain" />
               <span className="ml-3 font-bold text-xl tracking-tight text-brand-light">Metodo Tour Digitale</span>
             </div>
             <p className="text-brand-light/60 text-sm">
