@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Metodo Tour Digitale",
-  description: "Landing page per agenzia di marketing specializzata in società sportive.",
+  description: "L'unico metodo in 5 pilastri per il successo della tua società sportiva",
   icons: {
     icon: '/favicon.png',
   },
