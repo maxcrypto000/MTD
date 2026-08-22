@@ -3,12 +3,13 @@
 import { useState, ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle2, ChevronDown, ChevronUp } from "lucide-react";
+import Image from "next/image";
 
 const pillars = [
   {
     id: 1,
     title: "ANALISI DELLA TUA SOCIETÀ",
-    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&q=80",
+    image: "/Luca_e_aldo.jpeg",
     description: [
       "Un nostro manager effettuerà un sopralluogo presso la tua struttura e svolgerà una riunione con te per studiare a fondo la tua situazione specifica, i tuoi punti di forza, la tua filosofia e il tipo di clientela che desideri attrarre.",
       "Questa fase è fondamentale per individuare il tuo reale vantaggio competitivo, definire il target ideale a cui rivolgeremo tutta la comunicazione e per costruire la proposta unica di vendita.",
@@ -18,7 +19,7 @@ const pillars = [
   {
     id: 2,
     title: "COSTRUZIONE DEL TOUR DIGITALE",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80",
+    image: "/Luca_spiega.jpeg",
     description: [
       "Costruiremo il Tour Digitale della tua struttura, per raccontare nel dettaglio i tuoi allenatori, l’attrezzatura, i servizi, gli allenamenti e la vostra filosofia.",
       "Dopo aver raccolto tutte le informazioni necessarie, il nostro manager darà vita al progetto con l’aiuto di un grafico, un copywriter, un videomaker e un editor.",
@@ -36,7 +37,7 @@ const pillars = [
   {
     id: 3,
     title: "ALLENIAMO I TUOI ISTRUTTORI A SVOLGERE OGNI PROVA GRATUITA IN MODO VINCENTE",
-    image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&q=80",
+    image: "/Luca_in_pista.jpeg",
     description: [
       "Non basta essere gentili e preparati, bisogna imparare a vendere.",
       "Il nostro manager, con anni di esperienza nel settore, formerà i tuoi istruttori affinché ogni prova diventi una concreta opportunità di fatturato.",
@@ -85,10 +86,12 @@ function PillarItem({ pillar, index }: { pillar: Pillar; index: number }) {
       {/* Image Side */}
       <div className="w-full lg:w-1/2">
         <div className="relative aspect-[4/3] rounded-3xl overflow-hidden border-2 border-brand-darkBlue/30 shadow-[0_0_50px] shadow-brand-blue/30">
-          <img
+          <Image
             src={pillar.image}
             alt={pillar.title}
-            className="w-full h-full object-cover"
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            className="object-cover"
           />
           <div className="absolute top-4 left-4 bg-brand-orange text-white w-12 h-12 flex items-center justify-center rounded-full text-2xl font-black shadow-lg">
             {pillar.id}

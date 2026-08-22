@@ -1,16 +1,19 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <section className="relative pt-20 pb-32 lg:pt-32 lg:pb-48 overflow-hidden" id="chi-siamo">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img
-          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80"
-          alt="Ragazzi che lavorano in ufficio"
-          className="w-full h-full object-cover opacity-50 mix-blend-luminosity"
+        <Image
+          src="/Luca_spiega_orizzontale.jpeg"
+          alt="Luca spiega il Metodo Tour Digitale"
+          fill
+          priority
+          className="object-cover opacity-50 mix-blend-luminosity"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-brand-darkest/70 via-brand-darkest/60 to-brand-darkest"></div>
       </div>
