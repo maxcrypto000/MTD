@@ -25,6 +25,22 @@ export default function Empathy() {
               <p>
                 Non è colpa tua, per anni ti hanno insegnato a credere nel volantinaggio, negli open day e nel passaparola. Poi sono arrivate le agenzie marketing... che ti hanno venduto <strong className="text-brand-orange font-bold">dati difficilmente convertibili in denaro</strong>, come like e visualizzazioni, tra l’altro facilmente manipolabili con bot da due soldi.
               </p>
+              <div className="relative w-full h-64 sm:h-80 mt-8 rounded-2xl overflow-hidden border border-brand-darkBlue/30 shadow-[0_0_30px_rgba(31,110,139,0.3)]">
+                {/* Immagine per Mobile */}
+                <Image
+                  src="/Luca_spiega.jpeg"
+                  alt="Metodo Tour Digitale spiegazione"
+                  fill
+                  className="object-cover md:hidden"
+                />
+                {/* Immagine per Desktop */}
+                <Image
+                  src="/Luca_spiega_orizzontale.jpeg"
+                  alt="Metodo Tour Digitale spiegazione"
+                  fill
+                  className="object-cover hidden md:block"
+                />
+              </div>
             </div>
           </div>
         </motion.div>
@@ -73,11 +89,10 @@ export default function Empathy() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="relative h-96 rounded-2xl overflow-hidden border border-brand-darkBlue/30 shadow-[0_0_40px_rgba(31,110,139,0.2)]"
           >
-            <Image
-              src="/Luca_spiega.jpeg"
-              alt="Metodo Tour Digitale spiegazione"
-              fill
-              className="object-cover opacity-60"
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80"
+              alt="Data and Marketing"
+              className="w-full h-full object-cover opacity-60"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-brand-darkest/80 to-transparent"></div>
           </motion.div>
