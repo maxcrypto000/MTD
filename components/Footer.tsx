@@ -21,8 +21,12 @@ export default function Footer() {
           <div id="contattaci" className="md:justify-self-end">
             <h4 className="text-brand-light font-bold mb-4 tracking-wider">CONTATTI</h4>
             <ul className="space-y-2 text-sm text-brand-light/60">
-              <li>✉️ tourdigitaleinfo@gmail.com</li>
-              <li>📞 340 813 9468</li>
+              <li>
+                ✉️ <a href="mailto:tourdigitaleinfo@gmail.com" className="hover:text-brand-orange transition-colors">tourdigitaleinfo@gmail.com</a>
+              </li>
+              <li>
+                📞 <a href="tel:+393408139468" className="hover:text-brand-orange transition-colors">340 813 9468</a>
+              </li>
             </ul>
           </div>
         </div>
