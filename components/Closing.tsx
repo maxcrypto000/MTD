@@ -30,7 +30,7 @@ export default function Closing() {
   };
 
   return (
-    <section className="py-24 bg-brand-darkest relative overflow-hidden border-t border-brand-darkBlue/20" id="candidati">
+    <section className="py-24 bg-brand-darkest relative overflow-hidden border-t border-brand-darkBlue/20">
       {/* Decorative gradients */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-96 bg-brand-orange/5 rounded-full blur-[100px] pointer-events-none"></div>
 
@@ -99,6 +99,8 @@ export default function Closing() {
                 Dato che non possiamo scendere a compromessi con la qualità del nostro lavoro e dato che gestiamo una società sportiva con più di 30 dipendenti <strong className="text-brand-light font-black">ABBIAMO DECISO DI APRIRE SOLO 15 POSTI PER LE PRIME 15 SOCIETÀ SPORTIVE CHE COMPILERANNO IL MODULO E PASSERANNO LA CALL DI CANDIDATURA.</strong>
               </p>
             </div>
+            
+            <div id="candidati" className="scroll-mt-24"></div>
 
             {status === 'success' ? (
               <div className="max-w-md mx-auto bg-green-500/10 border border-green-500/30 rounded-2xl p-8 mb-8 text-center">
