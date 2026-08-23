@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Method() {
   return (
@@ -40,6 +41,14 @@ export default function Method() {
               <p className="font-bold text-brand-blue text-xl">
                 Affidati a chi ha cambiato la sua vita e il destino della propria società sportiva con il <span className="text-brand-blue">Metodo Tour Digitale.</span>
               </p>
+              <div className="relative w-full h-64 sm:h-96 my-10 rounded-2xl overflow-hidden border border-brand-darkBlue/30 shadow-[0_0_30px_rgba(31,110,139,0.3)]">
+                <Image 
+                  src="/Luca_in_pista.jpeg" 
+                  alt="Luca in pista" 
+                  fill 
+                  className="object-cover"
+                />
+              </div>
               <p>
                 In un anno e mezzo <strong className="font-bold text-brand-orange">abbiamo raddoppiato il fatturato</strong> della nostra società sportiva Mezzaluna, passando da poco meno di 200 iscritti a più di 430 e organizzando eventi con oltre 1.200 persone giornaliere.
               </p>

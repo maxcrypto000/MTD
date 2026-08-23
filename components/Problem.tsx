@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Problem() {
   return (
@@ -20,6 +21,14 @@ export default function Problem() {
             <p>
               Sei stanco di correre per una società che ti fa lavorare il doppio di quanto dovresti e non ti da la possibilità di vivere una vita sopra la media?
             </p>
+            <div className="relative w-full h-64 sm:h-80 my-8 rounded-2xl overflow-hidden border border-brand-darkBlue/30 shadow-lg">
+              <Image 
+                src="/Luca_e_aldo.jpeg" 
+                alt="Luca in ufficio" 
+                fill 
+                className="object-cover"
+              />
+            </div>
             <p>
               Passi le tue giornate con l’angoscia del prossimo stipendio da pagare, le scadenze dei fornitori non ti fanno dormire la notte e i tuoi figli sanno a mala pena che esisti!
             </p>

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Empathy() {
   return (
@@ -72,10 +73,11 @@ export default function Empathy() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="relative h-96 rounded-2xl overflow-hidden border border-brand-darkBlue/30 shadow-[0_0_40px_rgba(31,110,139,0.2)]"
           >
-            <img
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80"
-              alt="Data and Marketing"
-              className="w-full h-full object-cover opacity-60"
+            <Image
+              src="/Luca_spiega.jpeg"
+              alt="Metodo Tour Digitale spiegazione"
+              fill
+              className="object-cover opacity-60"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-brand-darkest/80 to-transparent"></div>
           </motion.div>
