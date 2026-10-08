@@ -10,8 +10,9 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/Luca_spiega_orizzontale.jpeg"
-          alt="Luca spiega il Metodo Tour Digitale"
+          alt="Luca spiega il Metodo Corsi Pieni"
           fill
+          sizes="100vw"
           priority
           className="object-cover opacity-50 mix-blend-luminosity"
         />

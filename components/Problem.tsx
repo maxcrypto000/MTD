@@ -26,6 +26,7 @@ export default function Problem() {
                 src="/Luca_e_aldo.jpeg" 
                 alt="Luca in ufficio" 
                 fill 
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>

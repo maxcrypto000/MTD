@@ -29,15 +29,17 @@ export default function Empathy() {
                 {/* Immagine per Mobile */}
                 <Image
                   src="/Luca_spiega.jpeg"
-                  alt="Metodo Tour Digitale spiegazione"
+                  alt="Metodo Corsi Pieni spiegazione"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover md:hidden"
                 />
                 {/* Immagine per Desktop */}
                 <Image
                   src="/Luca_spiega_orizzontale.jpeg"
-                  alt="Metodo Tour Digitale spiegazione"
+                  alt="Metodo Corsi Pieni spiegazione"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover hidden md:block"
                 />
               </div>

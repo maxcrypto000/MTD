@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Logo & Info */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <img src={logoImg.src} alt="Metodo Tour Digitale" className="h-14 sm:h-16 w-auto object-contain" />
+              <img src={logoImg.src} alt="clubUP" className="h-14 sm:h-16 w-auto object-contain" />
             </div>
             <p className="text-brand-light/60 text-sm max-w-sm">
               L'unico sistema strutturato in 5 pilastri per raddoppiare gli iscritti alla tua società sportiva senza agenzie di marketing o metodi obsoleti.
@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-brand-darkBlue/20 flex flex-col md:flex-row justify-between items-center text-sm text-brand-light/40">
-          <p>&copy; 2026 Metodo Tour Digitale. Tutti i diritti riservati.</p>
+          <p>&copy; 2026 clubUP. Tutti i diritti riservati.</p>
           <div className="mt-4 md:mt-0 space-x-4">
             <Link href="#" className="hover:text-brand-light transition-colors">Privacy Policy</Link>
             <Link href="#" className="hover:text-brand-light transition-colors">Termini e Condizioni</Link>

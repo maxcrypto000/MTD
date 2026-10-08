@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Metodo Tour Digitale",
+  title: "clubUP - Metodo Corsi Pieni",
   description: "Il metodo per rilanciare ogni società sportiva",
   icons: {
     icon: '/favicon.png',

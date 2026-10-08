@@ -62,7 +62,7 @@ export default function Closing() {
 
             <div className="text-lg sm:text-xl text-brand-light/90 space-y-6 mb-12">
               <p>
-                Per il primo mese, se passerai la chiamata di selezione con un nostro consulente, accederai <strong>senza rischi a un periodo di prova</strong> al Metodo Tour Digitale.
+                Per il primo mese, se passerai la chiamata di selezione con un nostro consulente, accederai <strong>senza rischi a un periodo di prova</strong> al Metodo Corsi Pieni.
               </p>
               <p>
                 Ti basterà registrarti qui sotto per essere contattato.

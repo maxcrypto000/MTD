@@ -17,14 +17,14 @@ const pillars = [
   },
   {
     id: 2,
-    title: "COSTRUZIONE DEL TOUR DIGITALE",
+    title: "COSTRUZIONE DEL METODO CORSI PIENI",
     image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80",
     description: [
-      "Costruiremo il Tour Digitale della tua struttura, per raccontare nel dettaglio i tuoi allenatori, l’attrezzatura, i servizi, gli allenamenti e la vostra filosofia.",
+      "Costruiremo il Metodo Corsi Pieni della tua struttura, per raccontare nel dettaglio i tuoi allenatori, l’attrezzatura, i servizi, gli allenamenti e la vostra filosofia.",
       "Dopo aver raccolto tutte le informazioni necessarie, il nostro manager darà vita al progetto con l’aiuto di un grafico, un copywriter, un videomaker e un editor.",
       "Quando il materiale sarà pronto, l’advertiser lancerà il tuo Tour online, monitorando quotidianamente il budget concordato e aggiornandoti ogni settimana sui risultati ottenuti.",
       <div key="list" className="block w-full">
-        Avrai sempre accesso alle piattaforme utilizzate per promuovere il tuo Tour Digitale e, ogni mese, riceverai:
+        Avrai sempre accesso alle piattaforme utilizzate per promuovere il tuo Metodo Corsi Pieni e, ogni mese, riceverai:
         <ul className="list-disc pl-6 mt-2 space-y-1 text-brand-light/90">
           <li>l’elenco dei clienti interessati;</li>
           <li>un report dettagliato;</li>
@@ -159,7 +159,7 @@ export default function Pillars() {
           <h2 className="text-4xl sm:text-5xl font-black text-brand-light mb-6">
             RIPARTI DAI <span className="text-brand-orange">5 PILASTRI</span> PER RISOLLEVARE QUALSIASI SOCIETA SPORTIVA.
           </h2>
-          <h3 className="text-3xl sm:text-4xl font-black text-brand-orange mb-6">METODO TOUR DIGITALE</h3>
+          <h3 className="text-3xl sm:text-4xl font-black text-brand-orange mb-6">METODO CORSI PIENI</h3>
         </div>
 
         <div className="space-y-32">

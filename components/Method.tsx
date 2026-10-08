@@ -39,13 +39,14 @@ export default function Method() {
                 Hai bisogno di qualcuno che è da anni in contatto con prove gratuite, corsi per bambini e per adulti, l’agonismo, il rapporto tra allenatore e genitori, la segreteria, i servizi, l’attrezzatura e altre mille variabili che solo chi gestisce un centro sportivo conosce.
               </p>
               <p className="font-bold text-brand-blue text-xl">
-                Affidati a chi ha cambiato la sua vita e il destino della propria società sportiva con il <span className="text-brand-blue">Metodo Tour Digitale.</span>
+                Affidati a chi ha cambiato la sua vita e il destino della propria società sportiva con il <span className="text-brand-blue">Metodo Corsi Pieni.</span>
               </p>
               <div className="relative w-full h-64 sm:h-96 my-10 rounded-2xl overflow-hidden border border-brand-darkBlue/30 shadow-[0_0_30px_rgba(31,110,139,0.3)]">
                 <Image 
                   src="/Luca_in_pista.jpeg" 
                   alt="Luca in pista" 
                   fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>
