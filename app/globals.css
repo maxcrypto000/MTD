@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-orange: #fa7321;
+  --color-brand-orange: #e60000; 
   --color-brand-light: #fff8f5;
   --color-brand-blue: #5249d9;
   --color-brand-darkBlue: #372f9e;
@@ -20,7 +20,7 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply bg-gradient-to-r from-brand-orange to-[#FF8A3D] border border-white/30 text-white font-bold rounded-xl transition-all;
+    @apply bg-gradient-to-r from-brand-orange to-[#ff3333] border border-white/30 text-white font-bold rounded-xl transition-all;
   }
 
   .card-premium {

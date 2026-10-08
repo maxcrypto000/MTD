@@ -1,5 +1,5 @@
 import Link from "next/link";
-import logoImg from "../public/logo.png";
+import logoImg from "../public/logoRed.png";
 
 export default function Footer() {
   return (

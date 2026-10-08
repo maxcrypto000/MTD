@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Phone } from "lucide-react";
-import logoImg from "../public/logo.png";
+import logoImg from "../public/logoRed.png";
 
 export default function Header() {
   return (
@@ -16,7 +16,7 @@ export default function Header() {
           <div className="flex items-center">
             <a 
               href="tel:3408139468" 
-              className="flex items-center justify-center p-3 sm:p-4 rounded-full bg-brand-orange text-white hover:bg-[#FF8A3D] hover:scale-105 transition-all shadow-lg shadow-brand-orange/20"
+              className="flex items-center justify-center p-3 sm:p-4 rounded-full bg-brand-orange text-white hover:bg-[#ff3333] hover:scale-105 transition-all shadow-lg shadow-brand-orange/20"
               aria-label="Chiama ora"
             >
               <Phone size={24} />
