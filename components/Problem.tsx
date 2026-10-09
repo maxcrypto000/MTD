@@ -13,13 +13,13 @@ export default function Problem() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-light mb-10 leading-tight">
-            LAVORI <span className="text-brand-orange">12 ORE AL GIORNO</span> PER UNO STIPENDIO POCO PIÙ ALTO DI QUELLO DI UN TUO DIPENDENTE!
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-light mb-10 leading-tight uppercase">
+            VORRESTI AUMENTARE I <span className="text-brand-orange">TUOI CORSISTI??</span>
           </h2>
 
           <div className="space-y-6 text-lg sm:text-xl text-brand-light/90 max-w-prose mx-auto mb-12 text-left">
             <p>
-              Sei stanco di correre per una società che ti fa lavorare il doppio di quanto dovresti e non ti da la possibilità di vivere una vita sopra la media?
+              I metodi che hai già provato non ti hanno fatto vedere aumenti significativi o peggio ancora ti hanno lasciato al punto di partenza?
             </p>
             <div className="relative w-full h-64 sm:h-80 my-8 rounded-2xl overflow-hidden border border-brand-darkBlue/30 shadow-lg">
               <Image 
@@ -30,11 +30,8 @@ export default function Problem() {
                 className="object-cover"
               />
             </div>
-            <p>
-              Passi le tue giornate con l’angoscia del prossimo stipendio da pagare, le scadenze dei fornitori non ti fanno dormire la notte e i tuoi figli sanno a mala pena che esisti!
-            </p>
-            <p className="font-bold text-brand-orange text-xl sm:text-2xl pt-4">
-              Rimani in piedi grazie a soldi a fondo perduto, aiuti dallo Stato e scoperti in banca. In questo modo non scalerai mai la tua società e non vivrai mai la vita che ti eri promesso.
+            <p className="font-bold text-brand-orange text-xl sm:text-2xl pt-4 text-center">
+              Il ragazzetto che ti fa i video per i social, i volantini, il passaparola e i cartelloni pubblicitari nel 2026 non funziona più!
             </p>
           </div>
 
@@ -44,7 +41,7 @@ export default function Problem() {
             whileTap={{ scale: 0.95 }}
             className="inline-block btn-primary text-lg px-8 py-4 shadow-lg"
           >
-            Candidati qui sotto
+            CANDIDATI QUI SOTTO!
           </motion.a>
         </motion.div>
       </div>

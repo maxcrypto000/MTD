@@ -30,8 +30,8 @@ export default function Method() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative z-10"
           >
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-8 sm:mb-10 text-center">
-              HAI BISOGNO DI QUALCUNO CHE <span className="text-brand-orange">VIVE DI SPORT</span> E SA CHE COSA VUOL DIRE GESTIRE UN CENTRO OGNI GIORNO.
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-8 sm:mb-10 text-center uppercase">
+              HAI BISOGNO DI QUALCUNO CHE <span className="text-brand-orange">VIVE DI SPORT</span> E LO HA GIÀ FATTO PRIMA DI TE!
             </h2>
 
             <div className="space-y-6 text-brand-light/90 text-base sm:text-lg leading-relaxed max-w-4xl mx-auto text-center">
@@ -62,7 +62,7 @@ export default function Method() {
                 whileTap={{ scale: 0.95 }}
                 className="inline-block btn-primary text-lg px-10 py-5 shadow-[0_0_20px_rgba(255,91,33,0.3)]"
               >
-                Candidati qui sotto
+                CANDIDATI QUI SOTTO.
               </motion.a>
             </div>
           </motion.div>

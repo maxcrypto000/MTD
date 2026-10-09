@@ -57,7 +57,7 @@ export default function Closing() {
           <div className="relative z-10">
             <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-brand-light mb-6 sm:mb-8 leading-tight">
               OTTIENI CIÒ CHE TI PROMETTIAMO <br />
-              <span className="text-brand-orange">O NON CI PAGHI!</span>
+              <span className="text-brand-orange">O NON CI PAGHI.</span>
             </h2>
 
             <div className="text-lg sm:text-xl text-brand-light/90 space-y-6 mb-12">
@@ -81,23 +81,10 @@ export default function Closing() {
 
             </div>
 
-            <div className="mt-8 mb-12 text-left bg-brand-darkBlue/10 p-6 sm:p-8 rounded-2xl border border-brand-darkBlue/30 shadow-inner">
-              <h3 className="text-xl sm:text-2xl font-black text-brand-light mb-4 leading-tight">
-                MA PERCHÉ TI DIAMO LA POSSIBILITÀ DI PROVARE TUTTO QUESTO <span className="text-brand-orange">SENZA DOVERCI DARE UN EURO?</span>
+            <div className="mt-8 mb-12 text-center bg-brand-darkBlue/10 p-6 sm:p-8 rounded-2xl border border-brand-darkBlue/30 shadow-inner">
+              <h3 className="text-xl sm:text-2xl font-black text-brand-light leading-tight uppercase">
+                SE HAI UNA PICCOLA REALTÀ NON TI PREOCCUPARE SAPPIAMO CHE NON PUOI PERMETTERTI ABBONAMENTI DEL GENERE, ABBIAMO TARIFFE DEDICATE ALLE TUE ESIGENZE.
               </h3>
-              <p className="mb-4 text-brand-light/90">
-                Siamo così sicuri del valore che ti stiamo promettendo, che non abbiamo bisogno di spingerti o forzarti a firmare contratti vincolanti e quindi a fare acquisti di impulso.
-              </p>
-              <p className="mb-8 text-brand-light/90">
-                Sarai tu stesso che dopo aver valutato la veridicità di quello che dico non vorrai fare a meno del nostro servizio.
-              </p>
-
-              <h3 className="text-xl sm:text-2xl font-black text-brand-light mb-4">
-                MA ATTENZIONE <span className="text-brand-orange">IL NOSTRO TEMPO È LIMITATO.</span>
-              </h3>
-              <p className="text-brand-light/90 leading-relaxed">
-                Dato che non possiamo scendere a compromessi con la qualità del nostro lavoro e dato che gestiamo una società sportiva con più di 30 dipendenti <strong className="text-brand-light font-black">ABBIAMO DECISO DI APRIRE SOLO 15 POSTI PER LE PRIME 15 SOCIETÀ SPORTIVE CHE COMPILERANNO IL MODULO E PASSERANNO LA CALL DI CANDIDATURA.</strong>
-              </p>
             </div>
             
             <div id="candidati" className="scroll-mt-24"></div>

@@ -10,25 +10,25 @@ const pillars = [
     title: "ANALISI DELLA TUA SOCIETÀ",
     image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&q=80",
     description: [
-      "Un nostro manager effettuerà un sopralluogo presso la tua struttura e svolgerà una riunione con te per studiare a fondo la tua situazione specifica, i tuoi punti di forza, la tua filosofia e il tipo di clientela che desideri attrarre.",
-      "Questa fase è fondamentale per individuare il tuo reale vantaggio competitivo, definire il target ideale a cui rivolgeremo tutta la comunicazione e per costruire la proposta unica di vendita.",
-      "Ti renderemo diverso dalla concorrenza per uscire dal gioco di chi fa il prezzo più basso e iniziare a marginare davvero."
+      "Un nostro manager effettuerà un sopralluogo presso la tua struttura e svolgerà una riunione con te per analizzare a fondo la tua situazione, i tuoi punti di forza, la tua filosofia e il tipo di clientela che desideri attrarre.",
+      "Questa fase è fondamentale per individuare il tuo reale vantaggio competitivo, definire il target ideale a cui rivolgere tutta la comunicazione e costruire la tua proposta unica di vendita."
     ]
   },
   {
     id: 2,
-    title: "COSTRUZIONE DEL METODO CORSI PIENI",
+    title: "COSTRUZIONE DEL TOUR DIGITALE",
     image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80",
     description: [
-      "Costruiremo il Metodo Corsi Pieni della tua struttura, per raccontare nel dettaglio i tuoi allenatori, l’attrezzatura, i servizi, gli allenamenti e la vostra filosofia.",
-      "Dopo aver raccolto tutte le informazioni necessarie, il nostro manager darà vita al progetto con l’aiuto di un grafico, un copywriter, un videomaker e un editor.",
-      "Quando il materiale sarà pronto, l’advertiser lancerà il tuo Tour online, monitorando quotidianamente il budget concordato e aggiornandoti ogni settimana sui risultati ottenuti.",
+      "Dopo aver raccolto tutte le informazioni necessarie, il nostro manager definirà la strategia di vendita.",
+      "Il copywriter scriverà gli script dei contenuti, il tecnico verrà direttamente nella tua struttura per registrarli e l’editor si occuperà del montaggio e della pubblicazione sui tuoi canali social.",
+      "Quando il materiale sarà pronto, l’advertiser lancerà il Tour online, monitorando quotidianamente il budget concordato e aggiornandoti ogni settimana sui risultati ottenuti.",
       <div key="list" className="block w-full">
-        Avrai sempre accesso alle piattaforme utilizzate per promuovere il tuo Metodo Corsi Pieni e, ogni mese, riceverai:
+        Avrai sempre accesso alle piattaforme utilizzate per promuovere il tuo Tour Digitale e, ogni mese, riceverai:
         <ul className="list-disc pl-6 mt-2 space-y-1 text-brand-light/90">
           <li>l’elenco dei clienti interessati;</li>
           <li>un report dettagliato;</li>
           <li>il confronto tra investimento effettuato e risultati economici ottenuti.</li>
+          <li>Il calendario editoriale con la data di quando posteremo ogni contenuto.</li>
         </ul>
       </div>
     ]
@@ -38,8 +38,8 @@ const pillars = [
     title: "ALLENIAMO I TUOI ISTRUTTORI A SVOLGERE OGNI PROVA GRATUITA IN MODO VINCENTE",
     image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&q=80",
     description: [
-      "Non basta essere gentili e preparati, bisogna imparare a vendere.",
-      "Il nostro manager, con anni di esperienza nel settore, formerà i tuoi istruttori affinché ogni prova diventi una concreta opportunità di fatturato.",
+      "Non basta essere gentili e preparati: bisogna imparare a vendere.",
+      "Il nostro manager, con anni di esperienza nel settore, formerà i tuoi istruttori affinché ogni prova gratuita diventi una concreta opportunità di fatturato.",
       "In base al pacchetto scelto, la formazione sarà erogata tramite videocorso oppure direttamente presso la tua struttura."
     ]
   },
@@ -49,7 +49,7 @@ const pillars = [
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80",
     description: [
       "Molti abbonamenti si perdono ancora prima che il cliente entri in sala.",
-      "Per questo formeremo la tua segreteria affinché impari a gestire telefonate, appuntamenti e richieste con un metodo commerciale efficace, aumentando il numero di iscrizioni senza risultare insistente.",
+      "Per questo formeremo la tua segreteria affinché impari a gestire telefonate, appuntamenti e richieste attraverso un metodo commerciale efficace, aumentando il numero di iscrizioni senza risultare insistente.",
       "Anche in questo caso, la formazione sarà disponibile tramite videocorso oppure direttamente in presenza, in base alla modalità scelta."
     ]
   },
@@ -58,9 +58,8 @@ const pillars = [
     title: "LA TUA OFFERTA DIVENTERÀ COSÌ INCREDIBILE DA FAR SENTIRE LA GENTE SCIOCCA A NON APPROFITTARNE",
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80",
     description: [
-      "Una grande offerta non significa abbassare i prezzi, ma aumentare il valore percepito e farci pagare di più.",
-      "Ti aiuteremo a costruire un’offerta irresistibile, a presentare il prezzo nel modo corretto e a comunicare tutti i benefici del tuo servizio, così che il cliente percepisca il tuo abbonamento come la scelta più conveniente e logica.",
-      "L’obiettivo è semplice: farti pagare mensilità più alte e fare in modo che acquistare da te diventi una decisione naturale, senza dover ricorrere a sconti continui."
+      "Una grande offerta non significa abbassare i prezzi, ma aumentare il valore percepito e permetterti di farti pagare di più.",
+      "Ti aiuteremo a costruire un’offerta irresistibile, a presentare il prezzo nel modo corretto e a comunicare tutti i benefici del tuo servizio, così che il cliente percepisca il tuo abbonamento come la scelta più conveniente e logica."
     ]
   }
 ];

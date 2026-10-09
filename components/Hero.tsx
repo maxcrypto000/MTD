@@ -27,7 +27,7 @@ export default function Hero() {
           className="max-w-4xl mx-auto"
         >
           <h1 className="text-3xl sm:text-4xl lg:text-6xl font-black text-brand-light leading-tight mb-6 sm:mb-8">
-            SMETTI DI SOPRAVVIVERE E RIPARTI DAI <span className="text-brand-orange">5 PILASTRI</span> PER RILANCIARE QUALSIASI SOCIETÀ SPORTIVA.
+            RILANCIA LA TUA SOCIETÀ SPORTIVA CON IL <span className="text-brand-orange">METODO CORSI PIENI</span>.
           </h1>
 
           <p className="text-base sm:text-xl lg:text-2xl text-brand-light/80 mb-10 sm:mb-12 max-w-3xl mx-auto font-medium">
@@ -40,7 +40,7 @@ export default function Hero() {
             whileTap={{ scale: 0.95 }}
             className="inline-block btn-primary text-lg px-8 py-4 shadow-[0_0_20px_rgba(255,91,33,0.4)] hover:shadow-[0_0_30px_rgba(255,91,33,0.6)]"
           >
-            Candidati qui sotto
+            CANDIDATI QUI SOTTO.
           </motion.a>
         </motion.div>
       </div>
