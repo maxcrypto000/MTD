@@ -22,16 +22,16 @@ export default function Problem() {
               I metodi che hai già provato non ti hanno fatto vedere aumenti significativi o peggio ancora ti hanno lasciato al punto di partenza?
             </p>
             <div className="relative w-full h-64 sm:h-80 my-8 rounded-2xl overflow-hidden border border-brand-darkBlue/30 shadow-lg">
-              <Image 
-                src="/Luca_e_aldo.jpeg" 
-                alt="Luca in ufficio" 
-                fill 
+              <Image
+                src="/Luca_e_aldo.jpeg"
+                alt="Luca in ufficio"
+                fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>
             <p className="font-bold text-brand-orange text-xl sm:text-2xl pt-4 text-center">
-              Il ragazzetto che ti fa i video per i social, i volantini, il passaparola e i cartelloni pubblicitari nel 2026 non funziona più!
+              Il ragazzetto che ti fa i video per i social, i volantini, il passaparola e i cartelloni pubblicitari nel 2026 non funzionano più!
             </p>
           </div>
 

@@ -10,7 +10,7 @@ const pillars = [
     title: "ANALISI DELLA TUA SOCIETÀ",
     image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&q=80",
     description: [
-      "Un nostro manager effettuerà un sopralluogo presso la tua struttura e svolgerà una riunione con te per analizzare a fondo la tua situazione, i tuoi punti di forza, la tua filosofia e il tipo di clientela che desideri attrarre.",
+      "Verrà effettuato un sopralluogo presso la tua struttura e verrà svolta una riunione con te per analizzare a fondo la tua situazione, i tuoi punti di forza, la tua filosofia e il tipo di clientela che desideri attrarre.",
       "Questa fase è fondamentale per individuare il tuo reale vantaggio competitivo, definire il target ideale a cui rivolgere tutta la comunicazione e costruire la tua proposta unica di vendita."
     ]
   },

@@ -73,20 +73,21 @@ export default function Closing() {
 
             <div className="bg-brand-darkest border border-brand-orange/30 rounded-2xl p-6 sm:p-8 mb-10 transform -rotate-1 hover:rotate-0 transition-transform duration-300">
               <h3 className="text-lg sm:text-2xl font-bold text-brand-light mb-4">
-                SOLO DOPO LA PROVA VALUTERAI TU STESSO SE FIRMARE UN CONTRATTO NON VINCOLANTE E CON LA POSSIBILITÀ DI RECEDERE QUANDO VUOI PER SOLI:
+                SOLO DOPO AVERCI PROVATO POTRAI VALUTARE DA CONTRATTO SENZA CLAUSOLE INGANNEVOLI, SE PAGARCI OPPURE NO.
               </h3>
-              <p className="text-4xl sm:text-7xl font-black text-brand-orange mb-4 tracking-tight">
+              {/* <p className="text-4xl sm:text-7xl font-black text-brand-orange mb-4 tracking-tight">
                 899 € <span className="text-xl sm:text-3xl text-brand-light/70 font-bold">/ mese</span>
-              </p>
+              </p>*/}
 
             </div>
 
             <div className="mt-8 mb-12 text-center bg-brand-darkBlue/10 p-6 sm:p-8 rounded-2xl border border-brand-darkBlue/30 shadow-inner">
               <h3 className="text-xl sm:text-2xl font-black text-brand-light leading-tight uppercase">
-                SE HAI UNA PICCOLA REALTÀ NON TI PREOCCUPARE SAPPIAMO CHE NON PUOI PERMETTERTI ABBONAMENTI DEL GENERE, ABBIAMO TARIFFE DEDICATE ALLE TUE ESIGENZE.
+                Abbiamo offerte e pacchetti pensati per attività monodisciplinari, polisportive e piccoli club.
+                <br /><span className="text-brand-orange">Per ricevere un preventivo gratuito registrati qui sotto.</span>
               </h3>
             </div>
-            
+
             <div id="candidati" className="scroll-mt-24"></div>
 
             {status === 'success' ? (
